@@ -81,7 +81,7 @@ class make_Dataset(Dataset):
         contrast = str2vec(self.brain_df['Contrast'].values[idx],self.contrast_codes)
         orientation = str2vec(self.brain_df['Orientation'].values[idx],self.orientation_codes)
 
-        # when the slize is entirely black, the model should predict it's class as OTHER and not labeled for contrast & orientation.
+        # when the slice is entirely black, the model should predict it's class as OTHER and not labeled for contrast & orientation.
         if img.std().item() < 1e-4:
             contrast = str2vec('OTHER_',self.contrast_codes)
             orientation = str2vec('UNLABELED',self.orientation_codes)
