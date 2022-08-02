@@ -145,7 +145,3 @@ def create_datasets(batch_size,weighted_trainer,batch,seed):
 
     return train_loader, valid_loader, test_loader
 
-
-if __name__ == '__main__':
-    train_loader, valid_loader, test_loader = create_datasets(batch_size=256)
-    print("Works!")
