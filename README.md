@@ -32,11 +32,9 @@ Model Architecture
 
 
 
-### Out-of-the box Classifier
+### Out-the-Box Classifier
 
-Due to memory limitations on file sizes allowed on GitHub, please download the pre-trained model weights located at https://drive.google.com/file/d/1ZsKlhGCE2zwV22GscY41oaMu8DT5P-Lh/view?usp=sharing. 
-
-Next, assuming you have a large set of brain MR images to be routed, please check out https://github.com/nkasmanoff/mri-content-detection/blob/master/notebooks/New%20DL%20Inputs.ipynb for info on how to route these new instances using the deep learning architecture, or https://github.com/nkasmanoff/mri-content-detection/blob/master/notebooks/New%20RFC%20Inputs.ipynb if you wish to use the random forest classifier. 
+For the latest / best trained models, please reach out to me at nsk367@nyu.edu
 
 ### Emphasis on Flexible Functionality
 
