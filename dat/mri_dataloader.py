@@ -35,12 +35,12 @@ class make_Dataset(Dataset):
             self.brain_df = pd.read_csv(meta_data_dir + 'batch_4_brain_metadata.csv',dtype=str) 
         elif batch == 'merged':
             self.brain_df = pd.read_csv(meta_data_dir + 'batch_merged_brain_metadata.csv',dtype=str) 
-        elif batch == 'wuh':
-            self.brain_df = pd.read_csv(meta_data_dir + 'batch_wuh_brain_metadata.csv',dtype=str) 
+        elif batch == 'test_institution':
+            self.brain_df = pd.read_csv(meta_data_dir + 'batch_test_institution_brain_metadata.csv',dtype=str) 
         else:
             raise ValueError("Invalid data batch selected.")
 
-        if batch != 'wuh':
+        if batch != 'test_institution':
             # don't split into train / valid / test when using the out of distribution MRIs.
             self.brain_df = self.brain_df.loc[self.brain_df['Mode'] == mode]
 

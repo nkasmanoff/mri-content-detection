@@ -23,7 +23,7 @@ Please reach out to me at nsk367@nyu.edu to learn more about the data used here,
 
 Confusion Matrix Dataset A           |  Confusion Matrix Dataset B
 :-------------------------:|:-------------------------:
-![](https://github.com/nkasmanoff/mri-content-detection/blob/main/bin/model_seq_b1_cm.png) |  ![](https://github.com/nkasmanoff/mri-content-detection/blob/main/bin/model_seq_b1_cm.png)
+![](https://github.com/nkasmanoff/mri-content-detection/blob/main/bin/model_seq_indistribution_cm.png) |  ![](https://github.com/nkasmanoff/mri-content-detection/blob/main/bin/model_seq_oodistribution_cm.png)
 
 
 Model Architecture           
