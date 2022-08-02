@@ -17,16 +17,13 @@ Series were grouped by descriptions into 25 sequences and 4 orientations. Datase
 
 The data for this project is not publicly available. Please reach out to me at nsk367@nyu.edu to learn more about the data used here, and what steps we can take to create a similar dataset.  
 
-## Results
-
-Confusion Matrix Dataset A           |  Confusion Matrix Dataset B
-:-------------------------:|:-------------------------:
-![](https://github.com/nkasmanoff/mri-content-detection/blob/main/bin/model_seq_indistribution_cm.png) |  ![](https://github.com/nkasmanoff/mri-content-detection/blob/main/bin/model_seq_oodistribution_cm.png)
-
-
 Model Architecture           
 :-------------------------:
 ![](https://github.com/nkasmanoff/mri-content-detection/blob/main/bin/autolabelarchitecture.png)
+
+## Results
+
+The neural network, random forest, and ensemble achieved 95%, 97%, and 98% overall sequence accuracy on dataset A, and 98%, 99%, and 99% accuracy on dataset B, respectively. All models achieved > 99% orientation accuracy on both datasets.
 
 
 

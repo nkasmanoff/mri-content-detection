@@ -1,0 +1,24 @@
+__pycache__/
+**hdf5
+*$py.class
+**npy 
+**.ckpt
+**.csv
+**.out
+**.pkl
+pip-log.txt 
+pip-delete-this-directory.txt
+**.DS_Store
+# Jupyter Notebook
+.ipynb_checkpoints
+# IPython
+profile_default/
+ipython_config.py
+*.ipynb
+*.csv
+src/lightning_logs/*
+src.egg-info
+*.pyc
+__pycache__
+src/__pycache__/*
+eda/metadata.csv
